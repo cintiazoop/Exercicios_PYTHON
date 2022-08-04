@@ -6,3 +6,8 @@ km = float(input('Quantos km rodados -> '))
 pago_diaria = (dias * 60) + (km * 0.15)     # Valor das diarias + valor dos kms
 
 print('O total a pagar é de R${:.2f}'.format(pago_diaria))
+
+
+
+
+
