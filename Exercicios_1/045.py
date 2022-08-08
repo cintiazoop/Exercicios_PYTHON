@@ -1,6 +1,6 @@
 # Faça um prg que faça o compútador jogar JOKENPÔ com vc.
 
-from random import  randint             # random biblioteca p/ gerar aleatoriamente um número inteiro dentro de um intervalo
+from random import randint             # random biblioteca p/ gerar aleatoriamente um número inteiro dentro de um intervalo
 
 itens = ('Pedra', 'Papel', 'Tesoura')
 computador = randint(0, 2)              # Sortea aleatoriamente um número entre 0 e 2.
