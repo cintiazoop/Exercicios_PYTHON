@@ -1,4 +1,4 @@
-# Crie um prg que leia um numero inteiro e mostre a sua tabuada.
+# Crie um prg que leia um número inteiro e mostre a sua tabuada.
 
 numero = int(input('Digite um número -> '))
 
@@ -16,4 +16,13 @@ print('-------------------------------------------')
 
 # OU
 
-print('{} x {} = {}'.format(numero, 1, (numero * 1)))
+numero = int(input('Digite um número -> '))
+cont = 0
+
+for elem in range(1, 11):
+    cont = cont + 1
+    print(f'{numero} x {cont} = {numero * cont}')
+
+
+
+
